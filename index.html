@@ -5,47 +5,116 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Hot Restaurant</title>
+    <!-- styles-->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/images/icon.png">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://code.jquery.com/jquery.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <!--end of styles linkage-->
+    <!--fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <!--end of fonts-->
+    <title>Hot Restaurant</title>
+    <!-- javascript links-->
+    <script src="https://code.jquery.com/jquery.js"></script>
 </head>
 
-<body>
-    <div class="container">
-        <div class="jumbotron">
-            <h1>Hot Restaurant</h1>
-            <h3>We only have 5 tables! Book your seat before they all are gone!
-            </h3>
-            <hr>
-            <a href="/add"><button class="btn btn-danger btn-lg"><span class="fa fa-plus"></span>Make
-                    Reservation</button></a>
-            <a href="/all"><button class="btn btn-danger btn-lg"><span class="fa fa-th-list"></span> View
-                    Tables</button></a>
+<body class="container">
+    <!--- Start Home Section -->
+    <div id="home">
+        <!--- Hero Header Image -->
+        <div class="header">
+            <div class="home-wrap">
+                <div class="home-inner">
+                </div>
+            </div>
         </div>
+        <!--- App main title -->
+        <div class="caption center-block text-center">
+            <i class="fa fa-fire fa-4x"></i>
+            <h1>Hot Restaurant</h1>
+            <h5>We only have 5 tables! Book your seat before they all are gone!
+            </h5>
+            <a href="/add">
+                <button class="btn btn-danger btn-lg">
+                    <span class="fa fa-plus"></span>Make Reservation
+                </button>
+            </a>
+            <a href="/all">
+                <button class="btn btn-danger btn-lg">
+                    <span class="fa fa-th-list"></span> View Tables
+                </button>
+            </a>
 
+        </div>
+    </div>
+
+<div>
+    <div class="card">
+        <div class="card-header">
+            <h3>
+                <strong>Table#</strong>
+            </h3>
+        </div>
         <div class="card">
             <div class="card-header">
-                <h3><strong>Table#</strong></h3>
+                <h3>
+                    <strong>Table#</strong>
+                </h3>
             </div>
-            <div class="card">
-                <div class="card-header">
-                    <h3><strong>Table#</strong></h3>
-                </div>
-                <div class="card-body">
-                    <div id="stats">
-                        <h3><strong>ID</strong> <span id="id">1</span></h3>
-                        <h3><strong>Name</strong> <span id="name">Trey Kennedy</span></h3>
-                        <h3><strong>Email</strong> <span id="email">trey.ken@gmail.com</span></h3>
-                        <h3><strong>Phone</strong> <span id="phone">703235671</span></h3>
-                    </div>
+            <div class="card-body">
+                <div id="stats">
+                    <h3>
+                        <strong>ID</strong>
+                        <span id="id">1</span>
+                    </h3>
+                    <h3>
+                        <strong>Name</strong>
+                        <span id="name">Trey Kennedy</span>
+                    </h3>
+                    <h3>
+                        <strong>Email</strong>
+                        <span id="email">trey.ken@gmail.com</span>
+                    </h3>
+                    <h3>
+                        <strong>Phone</strong>
+                        <span id="phone">703235671</span>
+                    </h3>
                 </div>
             </div>
         </div>
+    </div>
     </div>
     </div>
     </div>
 </body>
+<!--footer section-->
+<div class="container-fluid footer">
+    <!--copyright row-->
+    <div id="places" class="offset">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="footer-copyright text-center py-3">
+                    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" />
+                    <div>
+                        <a href="https://www.charlottefive.com/category/thingstodo/">
+                            <i class="fa fa-fire fa-2x"></i>
+                        </a>
+                        <a href="https://www.yelp.com">
+                            <i class="fa fa-yelp fa-2x"></i>
+                        </a>
+                        <a href="https://github.com/brittmoni/hot-restaurant/">
+                            <i class="fa fa-github fa-2x"></i>
+                        </a>
+                        <hr> &copy; 2019
+                    </div>
+                </div>
+                <!--- End Row -->
+            </div>
+            <!--- End Container Footer -->
+        </div>
 
 </html>
