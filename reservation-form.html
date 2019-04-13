@@ -4,9 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <title>Make a Reservtaion</title>
 </head>
 <body>
-    
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Hot Restaurant</h1>
+      <hr>
+      <h3>Make your reservation</h3>
+      <a href="/tables"><button class="btn btn-primary btn-lg"><span class="fa fa-list-alt"></span> View Tables</button></a>
+      <a href="/index"><button class="btn btn-light btn-lg"><span class="fa fa-home"></span></button></a>
+    </div>
+    <div class="card">
+      <div class="card-header">Make Your Reservation</div>
+    <div class="card-body">
+    <form>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="name" class="form-control" id="name">
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input type="phone" class="form-control" id="phone">
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" class="form-control" id="email">
+        </div>
+        <div class="form-group">
+          <label for="unique-id">Unique ID</label>
+          <input type="unique-id" class="form-control" id="unique-id">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+      </div>
+      </div>
+  </div>
 </body>
 </html>
